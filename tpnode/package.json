@@ -1,0 +1,19 @@
+{
+  "name": "tp_servidor_node",
+  "version": "1.0.0",
+  "description": "tp 2 servidor node",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delfiam/tp2.git"
+  },
+  "author": "Delfina Munich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delfiam/tp2/issues"
+  },
+  "homepage": "https://github.com/delfiam/tp2#readme"
+}

@@ -14,7 +14,10 @@ function buscarCondicion (datos, condicion) {
         return "La condición no es válida."
     }
     else {
-        nuevoArray = [...new Set(nuevoArray)]
+        nuevoArray = nuevoArray.filter((item, index) => {
+            return nuevoArray.indexOf(item) === index
+        }
+        )
         nuevoArray.sort()
         fs.readFileSync("doc.txt", "utf-8")
         fs.writeFileSync("doc.txt", nuevoArray.join(", "))
